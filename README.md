@@ -1,4 +1,4 @@
-# Natural Language Processor: Spam Filter
+# Natural Language Processing: Spam Filter
 
 ## Description
 
