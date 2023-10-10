@@ -7,9 +7,6 @@ import nltk
 from nltk.corpus import stopwords
 #nltk.download_shell()
 
-import sys
-print(sys.path)
-
 #--------------------open and make file into a df
 [line for line in open('smsspamcollection/SMSSpamCollection')][3]
 #separated by \t
