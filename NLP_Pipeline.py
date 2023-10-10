@@ -1,11 +1,14 @@
 #--------------------import packages
 import pandas as pd
-import numpy as np
 import seaborn as sns
 import matplotlib.pyplot as plt
-import nltk
+#import nltk
 from nltk.corpus import stopwords
 #nltk.download_shell()
+
+#--------------------ignore future warnings
+import warnings
+warnings.simplefilter(action='ignore', category=FutureWarning)
 
 #--------------------open and make file into a df
 [line for line in open('data/SMSSpamCollection')][3]
@@ -68,8 +71,11 @@ pipeline = Pipeline([
 pipeline.fit(X_train,y_train)
 predictions = pipeline.predict(X_test)
 
-#--------------------classification report
-from sklearn.metrics import classification_report
-print(classification_report(predictions,y_test))
+#--------------------classification report & confusion matrix
+from sklearn.metrics import confusion_matrix, classification_report
+
+print(confusion_matrix(y_test,predictions))
+print("\n")
+print(classification_report(y_test, predictions))
 
 

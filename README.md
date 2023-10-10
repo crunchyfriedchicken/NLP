@@ -11,7 +11,7 @@ In this project I used NLP to filter if messages were spam or not. The technolog
 - seaborn
 - matplotlib
 
-The main challenge faced during this challenge was learning how to create pipelines.
+I did the same methodology to filter spam in both files except one of them I used pipeline which made the code more succint. The main challenge faced during this challenge was learning how to create pipelines.
 
 ## Installation
 
@@ -21,7 +21,7 @@ To install this project you will have to download the repository from github and
 
 Once installed you can use this project by entering the repository location using your CLI. Once entered into the repository you can run the project by first entering ```source .venv/Scripts/activate``` and then entering ```python NLP_1.py``` in the CLI.
 
-Once run a graph will show up as well as a classification report as shown here:
+Once run a graph will show up as well as a confusion matrix and classification report as shown here:
 ![Graph](./assets/graph.png)
 
-![Classification report](./assets/image.png)
+![Classification report & confusion matrix](./assets/image.png)
