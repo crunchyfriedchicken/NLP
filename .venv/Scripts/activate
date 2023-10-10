@@ -38,7 +38,7 @@ deactivate () {
 # unset irrelevant variables
 deactivate nondestructive
 
-VIRTUAL_ENV="C:\Users\Michelle\Data_Science_Code\NLP\.venv"
+VIRTUAL_ENV="C:\Users\Michelle\Data_Science_Code\NLP_SpamFilter\.venv"
 export VIRTUAL_ENV
 
 _OLD_VIRTUAL_PATH="$PATH"
