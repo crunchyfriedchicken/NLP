@@ -8,9 +8,9 @@ from nltk.corpus import stopwords
 #nltk.download_shell()
 
 #--------------------open and make file into a df
-[line for line in open('smsspamcollection/SMSSpamCollection')][3]
+[line for line in open('data/SMSSpamCollection')][3]
 #separated by \t
-messages = pd.read_csv('smsspamcollection/SMSSpamCollection',sep="\t",names=["label","message"])
+messages = pd.read_csv('data/SMSSpamCollection',sep="\t",names=["label","message"])
 messages
 
 #make a new column file length
