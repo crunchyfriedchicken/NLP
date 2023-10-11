@@ -19,7 +19,12 @@ To install this project you will have to download the repository from github and
 
 ## Usage
 
-Once installed you can use this project by entering the repository location using your CLI. Once entered into the repository you can run the project by first entering ```source .venv/Scripts/activate``` and then entering ```python NLP_1.py``` in the CLI.
+Once installed you can use this project by entering the repository location using your CLI. Once entered into the repository you can run the project by entering the following in the CLI:
+
+1. Creating a virtual environment: ```python -m venv .venv```
+2. Activating the virtual environment: ```source .venv/Scripts/activate```
+3. Downloading all the required packages: ```pip install -r requirements.txt```
+4. Running the file: ```python NLP_NoPipeline.py``` or ```python NLP_Pipeline.py```
 
 Once run a graph will show up as well as a confusion matrix and classification report as shown here:
 ![Graph](./assets/graph.png)
