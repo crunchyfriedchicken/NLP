@@ -6,7 +6,7 @@ In this project I used NLP to filter if messages were spam or not. The technolog
 
 - python 
 - sklearn
-- panda
+- pandas
 - nltk
 - seaborn
 - matplotlib
